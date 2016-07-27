@@ -10,7 +10,7 @@ The following details are required when adding an example DPA rule
     * at least one pcap which would trigger the rule. Additonal pcaps are encouraged as well as pcaps that does not trigger the rule
     * one readme file that describes
     ```
-    PCAP: Flow_NAME_1.pcap (example: DetectRogueDhcpServer_1.pcap) = some description of the expected result when replaying the pcap
+    PCAP: Flow_NAME_1.pcap (example: DetectRogueDhcpServer_1.pcap) = expected result when replayed
     DESCRIPTION:Description of what the rule does and its purpose
     AUTHOR: 
     SCOPE: Flow or Packet
