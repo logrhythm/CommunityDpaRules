@@ -3,6 +3,7 @@ This repository contains community DPA rules for network monitor. These rules ar
 
 # Contributions: 
 The following details are required when adding an example DPA rule
+
 1. /lrl: 
    * the lrl binary file for the rule
 2. /pcap:  
