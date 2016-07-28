@@ -1,0 +1,4 @@
+DESCRIPTION: Trigger an alarm if a non-approved DHCP server shows up on the network. This rule currently has two DHCP server IP addresses setup. Please change this to fit your network setup
+AUTHOR: LogRhythm (Dan Kaiser, improved by Kjell Hedstrom)
+SCOPE: Flow
+

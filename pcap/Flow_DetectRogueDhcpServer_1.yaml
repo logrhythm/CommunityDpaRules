@@ -1,0 +1,4 @@
+DESCRIPTION: Detect unapproved DHCP server. SIAddr=10.7.0.20
+SCOPE: Flow
+ALARM: Yes
+CUSTOM_METADATA: SIADDR_NM=10.7.0.20
