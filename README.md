@@ -10,7 +10,7 @@ The following details are required when adding an example DPA rule
     * at least one pcap which would trigger the rule. Additonal pcaps are encouraged as well as pcaps that does not trigger the rule
     * one yaml file per pcap that describes
     ```
-    DESCRIPTION:Description of what the rule does and its purpose
+    DESCRIPTION: Description of what the rule does and its purpose
     SCOPE: Flow/Packet
     Alarm: Yes/No
     CUSTOM_METADATA: (blank)/MY_CUSTOMFIELD_NM=<what it is>
