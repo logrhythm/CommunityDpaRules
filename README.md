@@ -8,16 +8,24 @@ The following details are required when adding an example DPA rule
    * the lrl binary file for the rule
 2. /pcap:  
     * at least one pcap which would trigger the rule. Additonal pcaps are encouraged as well as pcaps that does not trigger the rule
-    * one readme file that describes
+    * one yaml file per pcap that describes
     ```
-    PCAP: Flow_NAME_1.pcap (example: DetectRogueDhcpServer_1.pcap) = expected result when replayed
     DESCRIPTION:Description of what the rule does and its purpose
-    AUTHOR: 
-    SCOPE: Flow or Packet
+    SCOPE: Flow/Packet
+    Alarm: Yes/No
+    CUSTOM_METADATA: (blank)/MY_CUSTOMFIELD_NM=<what it is>
     ```
 3.  /rules:
-    The .lua rule that was used to create the binary
+    * The .lua rule that was used to create the binary
+    * one yaml file that describes
+    ```
+    DESCRIPTION: <describe in a short sentence the rule's mission>
+    AUTHOR: <who wrote it>
+    SCOPE: Flow/Packet
+    ```
 
 
 # License:
 All rules here are bound by the MIT License, copyright LogRhythm
+
+
