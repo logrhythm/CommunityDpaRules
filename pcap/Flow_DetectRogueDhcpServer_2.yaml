@@ -1,0 +1,6 @@
+PCAP: Flow_DetectRogueDhcpServer_2.pcap = SIADDR '0.0.0.0'
+DESCRIPTION: Will not trigger an alarm
+AUTHOR: LogRhythm (Dan Kaiser, improved by Kjell Hedstrom)
+SCOPE: Flow
+ALARM: No
+CUSTOM_METADATA: 
