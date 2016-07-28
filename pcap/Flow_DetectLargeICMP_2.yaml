@@ -1,0 +1,4 @@
+DESCRIPTION: Will not detect suspiciously data loads on ICMP traffic. TotalBytes=130B, TotalPackets=2
+SCOPE: Flow
+ALARM: No
+CUSTOM_METADATA: 
