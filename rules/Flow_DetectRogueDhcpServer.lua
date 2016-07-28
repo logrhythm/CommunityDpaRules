@@ -1,5 +1,5 @@
 
-function DetectRogueDhcpServer (dpiMsg, ruleEngine)
+function Flow_DetectRogueDhcpServer (dpiMsg, ruleEngine)
  -- Trigger an alarm if a non-approved DHCP server shows up on the network
  -- This rule currently has two DHCP server IP addresses setup. Please 
  -- change this to fit your network setup
@@ -41,6 +41,7 @@ function DetectRogueDhcpServer (dpiMsg, ruleEngine)
       local dhcpServer = GetString(dpiMsg, dhcp, "siaddr")
       if (dhcpServer ~= nil and dhcpServer ~= "0.0.0.0") then
          if (not approvedServers[dhcpServer]) then
+            SetCustomField(dpiMsg, "SIAddr", dhcpServer)
             WARNING(debug.getinfo(1, "S"), "Rogue DHCP server detected. UUID: ",  GetUuid(dpiMsg),  ", SIADDR: ",  dhcpServer)
             TriggerUserAlarm(dpiMsg, ruleEngine, "high")
          end
