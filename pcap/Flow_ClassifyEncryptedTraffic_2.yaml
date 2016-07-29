@@ -1,0 +1,4 @@
+DESCRIPTION: Will not classify http traffic as encrypted (application path: /tcp/http)
+SCOPE: Flow
+ALARM: No
+CUSTOM_METADATA: 

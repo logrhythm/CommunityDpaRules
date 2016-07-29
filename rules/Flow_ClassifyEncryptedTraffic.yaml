@@ -1,0 +1,4 @@
+DESCRIPTION: Adds a metadata field EncryptedTraffic_NM=true if a known encryption protocol is used 
+AUTHOR: Vaughn Adams, LogRhythm (modified by Kjell Hedstrom)
+SCOPE: Flow
+
