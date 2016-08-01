@@ -16,8 +16,7 @@ function Flow_DetectWebcamByVendorMAC (dpiMessage, ruleEngine)
       TARGET_VENDOR_MAC_PREFIX["00:24:E4"] = true -- Withings
       TARGET_VENDOR_MAC_PREFIX["00:18:03"] = true -- ArcSoft SimpliCam
       TARGET_VENDOR_MAC_PREFIX["BC:51:FE"] = true -- Swann
-      TARGET_VENDOR_MAC_PREFIX["00:50:C2"] = true -- Y-Cam (1)
-      TARGET_VENDOR_MAC_PREFIX["8C:AE:89"] = true -- Y-Cam (2)
+      TARGET_VENDOR_MAC_PREFIX["8C:AE:89"] = true -- Y-Cam
       TARGET_VENDOR_MAC_PREFIX["00:1F:54"] = true -- Lorex
       
       TARGET_VENDOR_NAME = {}
@@ -25,8 +24,7 @@ function Flow_DetectWebcamByVendorMAC (dpiMessage, ruleEngine)
       TARGET_VENDOR_NAME["00:24:E4"] = "Withings"
       TARGET_VENDOR_NAME["00:18:03"] = "ArcSoft SimpliCam"
       TARGET_VENDOR_NAME["BC:51:FE"] = "Swann"
-      TARGET_VENDOR_NAME["00:50:C2"] = "Y-Cam (1)" --- IEEE? 
-      TARGET_VENDOR_NAME["8C:AE:89"] = "Y-Cam (2)"
+      TARGET_VENDOR_NAME["8C:AE:89"] = "Y-Cam"
       TARGET_VENDOR_NAME["00:1F:54"] = "Lorex"
    end
    
