@@ -1,0 +1,4 @@
+DESCRIPTION: Detect suspiciously data loads on ICMP traffic
+SCOPE: Flow
+ALARM: Yes
+CUSTOM_METADATA: ICMP_PacketSize_NM=590

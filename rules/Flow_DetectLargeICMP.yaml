@@ -1,0 +1,4 @@
+DESCRIPTION: Trigger an alarm if ICMP traffic carries suspiciously big data packets
+AUTHOR: LogRhythm Jarod Smilkstein (improved by Kjell Hedstrom)
+SCOPE: Flow
+
