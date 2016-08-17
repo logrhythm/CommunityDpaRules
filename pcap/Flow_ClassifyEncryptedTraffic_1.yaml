@@ -1,0 +1,4 @@
+DESCRIPTION: Classify encrypted traffic
+SCOPE: Flow
+ALARM: No
+CUSTOM_METADATA: EncryptedTraffic_NM=true, EncryptedTrafficType_NM=ssl
