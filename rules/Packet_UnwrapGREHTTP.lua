@@ -3,7 +3,7 @@ function UnwrapGREHTTP (dpiMsg, packet)
     require 'LOG'
     require 'HexString'
     
-    if packet ~= nil and GetHasApplication(dpiMsg, 'http') then
+    if packet ~= nil and HasApplication(dpiMsg, 'http') then
         if gGreWrappedIP == nil then
             gGreWrappedIP = {}
         end
