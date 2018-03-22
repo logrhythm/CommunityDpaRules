@@ -7,7 +7,7 @@ require 'LOG'
    -- Covers icmp and icmp6 traffic
    if (app == "icmp" or app == "icmp6") then
       local size = GetLong(dpiMsg, 'internal', 'totalbytes')
-      local numPackets = GetInt(dpiMsg, 'internal', 'totalpackets')
+      local numPackets = GetLong(dpiMsg, 'internal', 'totalpackets')
       if (numPackets) then
          local avgPktSize  = size / numPackets
          if avgPktSize >  160 then
