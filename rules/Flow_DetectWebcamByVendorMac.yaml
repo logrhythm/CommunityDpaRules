@@ -1,0 +1,4 @@
+DESCRIPTION: Trigger an alarm a listed webcam is detected by mac address on the network. WEBCAM_NAME_NM and WEBCAM_MAC_NM are the metadata fields that will be set upon detection
+AUTHOR: Tom Salmon, LogRhythm (modified by Kjell Hedstrom)
+SCOPE: Flow
+
